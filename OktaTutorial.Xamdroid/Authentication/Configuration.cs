@@ -2,10 +2,10 @@
 {
 	public static class Configuration
 	{
-		public const string ClientId = "{your-client-id}";
+		public const string ClientId = "{yourClientId}";
 
-		public const string LoginRedirectUri = "{your-redirect-uri}";
+		public const string LoginRedirectUri = "{yourRedirectUri}";
 
-		public const string OrgUrl = "https://{your-org-url}.com";
+		public const string OrgUrl = "https://{yourOrgUrl}.com";
 	}
 }

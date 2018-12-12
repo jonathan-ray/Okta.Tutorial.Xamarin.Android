@@ -27,7 +27,7 @@ namespace OktaTutorial.Xamdroid.Extensions
 
 		public static bool TryGetAuthStateFromExtra(this Intent intent, out AuthState authState)
 		{
-			authState = default;
+			authState = null;
 
 			if (!intent.HasAuthStateExtra())
 			{
